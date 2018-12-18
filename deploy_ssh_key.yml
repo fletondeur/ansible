@@ -5,4 +5,4 @@
     authorized_key:
      user: root
      state: present
-     key: {{ ansible_key }}
+     key: "{{ ansible_key }}"
