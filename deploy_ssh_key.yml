@@ -5,4 +5,4 @@
     authorized_key:
      user: root
      state: present
-     key: "{{ lookup('file', '/root/cles_ssh/ansible_rsa.pub') }}"
+     key: "{{ lookup('file', '/home/ansible/ansible_rsa.pub') }}"
