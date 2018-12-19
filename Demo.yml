@@ -1,3 +1,4 @@
-- hosts: "{{ host_var }}"
+- hosts:
+  - all
   tasks:
     - action: ping
