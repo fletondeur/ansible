@@ -1,5 +1,5 @@
 ---
-- hosts: {{ host_var }}
+- hosts: all
   tasks:
   - name: Set authorized key taken from file
     authorized_key:
